@@ -126,6 +126,20 @@ body {
   color: var(--main-color);
 }
 
+.top-title.active-link {
+  position: relative;
+}
+
+.top-title.active-link::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: var(--primary-color);
+  bottom: -32px;
+  border-radius: 2px;
+}
+
 .top-contact-title {
   font-size: 14px;
   font-weight: 500;
@@ -535,15 +549,15 @@ body {
   color: var(--secondary-color);
 }
 
-.overflow-hidden {
+.portfolio-img-main {
   overflow: hidden;
+  position: relative;
 }
 
 .img-position {
   position: relative;
   overflow: hidden;
-  width: 370px;
-  height: 294px;
+  display: flex;
 }
 
 .img-position > .label {
