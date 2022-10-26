@@ -68,7 +68,9 @@
       <section>
         <div class="main-block">
           <h1 class="main-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="btn">ZAMÓW USŁUGE</button>
+          <button class="modal-btn" type="button" data-modal-open>
+            ZAMÓW USŁUGE
+          </button>
         </div>
       </section>
 
@@ -356,7 +358,7 @@
           <a href="WebStudio" class="logo hover-link footer-logo"
             ><span class="white">Web</span><span class="blue">Studio</span></a
           >
-          <address>
+          <address class="address-text">
             <a class="footer-data footer-navigation"
               >m. Warszawa, Aleje Jerozolimskie 21</a
             >.<br />
@@ -398,5 +400,12 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
