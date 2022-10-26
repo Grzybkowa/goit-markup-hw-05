@@ -1,4 +1,4 @@
-/*CSS reset*/
+/* =============== CSS reset =============== */
 h1,
 h2,
 h3,
@@ -14,6 +14,8 @@ p {
   font: inherit;
   vertical-align: baseline;
 }
+
+/* =============== END CSS RESET =============== */
 
 :root {
   --main-color: #212121;
@@ -148,6 +150,8 @@ body {
   text-decoration: none;
   color: var(--quinary-color);
 }
+
+/* =============== MAIN =============== */
 
 .modal-btn {
   padding: 10px 42px;
@@ -376,10 +380,10 @@ body {
   line-height: 2;
   font-weight: 700;
 }
+/* =============== END MAIN =============== */
 
-.address-text {
-  font-style: normal;
-}
+
+/* =============== FOOTER =============== */
 
 .footer-wrapper {
   align-items: baseline;
@@ -441,6 +445,12 @@ body {
 .social-icons-footer:hover {
   background-color: var(--primary-color);
 }
+
+.address-text {
+  font-style: normal;
+}
+
+/* =============== END FOOTER =============== */
 
 .display-flex-icons {
   display: flex;
@@ -584,16 +594,18 @@ body {
   color: var(--secondary-color);
 }
 
+/* =============== BACKDROP =============== */
+
 .backdrop {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
-  
-  .modal {
+
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -623,3 +635,5 @@ body {
   visibility: hidden;
   pointer-events: none;
 }
+
+/* =============== END BACKDROP =============== */
