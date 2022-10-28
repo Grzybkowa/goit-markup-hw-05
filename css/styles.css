@@ -44,6 +44,10 @@ body {
   border: 1px solid #ececec;
 }
 
+.header-block.border-none {
+  border: none;
+}
+
 .wrapper {
   display: flex;
   align-items: center;
@@ -608,7 +612,7 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition-property: visibility, opacity;
-  transition-duration: 250ms; 
+  transition-duration: 250ms;
 }
 
 .modal {
